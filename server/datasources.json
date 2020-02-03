@@ -1,0 +1,8 @@
+{
+  "db": {
+    "url": "mongodb+srv://fralg100:canon100@clusterfran-65tu8.gcp.mongodb.net/reservas?retryWrites=true&w=majority",
+    "name": "db",
+    "connector": "mongodb",
+    "database":"reservas"
+  }
+}

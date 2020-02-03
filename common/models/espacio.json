@@ -1,0 +1,43 @@
+{
+  "name": "espacios",
+  "base": "PersistedModel",
+  "mongodb":{
+    "collection":"espacios"
+  },
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "ID": {
+      "type": "number",
+      "required": true
+    },
+    "NOMBRE": {
+      "type": "string"
+    },
+    "PRECIO": {
+      "type": "number",
+      "default": 0
+    },
+    "RECARGO": {
+      "type": "number",
+      "default": 0
+    },
+    "TIPO": {
+      "type": "number",
+      "default": 0
+    },
+    "CENTRO": {
+      "type": "string"
+    },
+    "ACTIVO": {
+      "type": "number",
+      "default": 1
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
